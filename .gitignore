@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Next.js / build
+.next/
+out/
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# PostgreSQL backups (si jamais)
+pgadmin4_env/
+password-reset-tokens-backups/
+
+# Misc
+coverage/
